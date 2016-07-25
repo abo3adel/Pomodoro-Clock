@@ -1,0 +1,86 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.center-block {
+  float: none;
+  margin-top: 7rem;
+  transition: all ease .6s;
+  -webkit-transition: all ease .6s;
+  -moz-transition: all ease .6s;
+  -o-transition: all ease .6s;
+  padding: 0;
+}
+
+.h1 {
+  font-size: 6rem;
+}
+
+input[type="number"] {
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.session,
+.break {
+  text-transform: capitalize;
+}
+
+.btn.plus,
+.btn.minus {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn.plus:hover,
+.btn.plus:focus,
+.btn.minus:hover,
+.btn.minus:focus {
+  border-color: transparent;
+}
+
+.cont .center-block {
+  margin: 0;
+}
+
+.markdown {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 3px solid #00c5ef;
+  overflow: hidden;
+}
+
+.markdown a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  outline: 0;
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.markdown .state {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.Timer {
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+.markdown .progress-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+}
